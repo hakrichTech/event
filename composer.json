@@ -1,0 +1,26 @@
+{
+    "name": "phpshots/event",
+    "version": "0.1.1",
+    "autoload": {
+        "psr-4": {
+            "PHPShots\\Event\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPShots\\Event\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "authors": [
+        {
+            "name": "Shamavu Rasheed",
+            "email": "hakimushamavu@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
